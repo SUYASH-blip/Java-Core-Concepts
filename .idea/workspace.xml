@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c6b278-39e9-4083-9f7b-2e594e1f7fa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collections_Framework/List/ArrayLists/BasicMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections_Framework/List/ArrayLists/Add_All_Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections_Framework/List/ArrayLists/As_Lists_Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections_Framework/List/ArrayLists/List_To_Arrays_Method.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections_Framework/List/ArrayLists/List_of_Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections_Framework/List/ArrayLists/List_of_Method.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +37,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Add_All_Method.executor": "Run",
+    "Application.As_Lists_Method.executor": "Run",
     "Application.BasicMethods.executor": "Run",
+    "Application.List_To_Arrays_Method.executor": "Run",
+    "Application.Of_Method.executor": "Run",
     "Application.Program1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/apple/IdeaProjects/Java-core-concepts/src/Main.java"
