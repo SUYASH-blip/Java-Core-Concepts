@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c6b278-39e9-4083-9f7b-2e594e1f7fa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Map/IdentityHashMap/BasicProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/LinkedHashMap/Basic_Methods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/LinkedHashMap/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/WeakHashMap/GC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map/HashTable/HashTableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map/TreeMap/BasicMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/HashMap/HashCodeAndEqualsMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/HashMap/HashCodeAndEqualsMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
     "Application.Entry_Set_Method.executor": "Run",
     "Application.GC.executor": "Run",
     "Application.HashCodeAndEqualsMethod.executor": "Run",
+    "Application.HashTableDemo.executor": "Run",
     "Application.Key_Set_Method.executor": "Run",
     "Application.LRUCache.executor": "Run",
     "Application.List_To_Arrays_Method.executor": "Run",
