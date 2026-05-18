@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97c6b278-39e9-4083-9f7b-2e594e1f7fa5" name="Changes" comment="" />
+    <list default="true" id="97c6b278-39e9-4083-9f7b-2e594e1f7fa5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Collections_Framework/Queue/Dequeue/ArrayDeque/FirstProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections_Framework/Queue/Dequeue/ArrayDeque/Stack_Using_ArrayDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +40,7 @@
     "Application.BasicProgram.executor": "Run",
     "Application.Basic_Methods.executor": "Run",
     "Application.Entry_Set_Method.executor": "Run",
+    "Application.FirstProgram.executor": "Run",
     "Application.GC.executor": "Run",
     "Application.HashCodeAndEqualsMethod.executor": "Run",
     "Application.HashTableDemo.executor": "Run",
@@ -44,11 +49,13 @@
     "Application.List_To_Arrays_Method.executor": "Run",
     "Application.Of_Method.executor": "Run",
     "Application.Program1.executor": "Run",
+    "Application.Stack_Using_ArrayDeque.executor": "Run",
     "Application.remove_Method.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/apple/IdeaProjects/Java-core-concepts/src/Collections_Framework/Queue",
     "onboarding.tips.debug.path": "/Users/apple/IdeaProjects/Java-core-concepts/src/Main.java"
   }
 }]]></component>
