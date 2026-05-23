@@ -43,6 +43,7 @@
     "Application.Key_Set_Method.executor": "Run",
     "Application.LRUCache.executor": "Run",
     "Application.List_To_Arrays_Method.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Of_Method.executor": "Run",
     "Application.Program1.executor": "Run",
     "Application.Stack_Using_ArrayDeque.executor": "Run",
