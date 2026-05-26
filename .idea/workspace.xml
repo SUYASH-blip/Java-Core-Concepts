@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c6b278-39e9-4083-9f7b-2e594e1f7fa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Generics/BasicProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/GenericMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/GenericMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Exception" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,34 +31,35 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Add_All_Method.executor&quot;: &quot;Run&quot;,
-    &quot;Application.As_Lists_Method.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BasicMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BasicProgram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Basic_Methods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Entry_Set_Method.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstProgram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GC.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashCodeAndEqualsMethod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashTableDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Key_Set_Method.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LRUCache.executor&quot;: &quot;Run&quot;,
-    &quot;Application.List_To_Arrays_Method.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Of_Method.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Stack_Using_ArrayDeque.executor&quot;: &quot;Run&quot;,
-    &quot;Application.remove_Method.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/apple/IdeaProjects/Java-core-concepts/src/Collections_Framework/Queue&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/apple/IdeaProjects/Java-core-concepts/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Add_All_Method.executor": "Run",
+    "Application.As_Lists_Method.executor": "Run",
+    "Application.BasicMethods.executor": "Run",
+    "Application.BasicProgram.executor": "Run",
+    "Application.Basic_Methods.executor": "Run",
+    "Application.Entry_Set_Method.executor": "Run",
+    "Application.FirstProgram.executor": "Run",
+    "Application.GC.executor": "Run",
+    "Application.GenericMethod.executor": "Run",
+    "Application.HashCodeAndEqualsMethod.executor": "Run",
+    "Application.HashTableDemo.executor": "Run",
+    "Application.Key_Set_Method.executor": "Run",
+    "Application.LRUCache.executor": "Run",
+    "Application.List_To_Arrays_Method.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Of_Method.executor": "Run",
+    "Application.Program1.executor": "Run",
+    "Application.Stack_Using_ArrayDeque.executor": "Run",
+    "Application.remove_Method.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/apple/IdeaProjects/Java-core-concepts/src/Collections_Framework/Queue",
+    "onboarding.tips.debug.path": "/Users/apple/IdeaProjects/Java-core-concepts/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
