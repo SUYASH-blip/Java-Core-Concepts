@@ -23,3 +23,10 @@ public class custom_Functional_Interface {
     }
 
 }
+/* basically there can be a doubt that there is no body of the add method it is only
+defined in the interface, but the main hero here is the "LAMBDA EXPRESSIONS"
+in the add method we are taking a Calculator type object but we are passing an lambda
+expression in the print calling time so internally java will store that lambda expression inside
+the object of type calculator and when we write c.add() the add method will use the logic of the lambda expression
+being provided.
+*/
