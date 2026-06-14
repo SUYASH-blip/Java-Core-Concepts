@@ -4,11 +4,15 @@ public class Demo7 {
 
         public static void main(String[] args) {
             Box3<Fish> b1 = new Box3<>();
+            b1.print();
         }
     }
 
     class Box3<T extends Animal & Swimmable> {
         T value;
+        public static void print(){
+            System.out.println("Hello form box");
+        }
     }
 
     class Animal {

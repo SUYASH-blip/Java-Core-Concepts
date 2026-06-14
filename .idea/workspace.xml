@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c6b278-39e9-4083-9f7b-2e594e1f7fa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Core_Functional_Interfaces/Predicate_Chaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/Practice1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/practice2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/Demo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Demo7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,7 @@
     "Application.Consumer_Interface.executor": "Run",
     "Application.Covariant.executor": "Run",
     "Application.Demo6.executor": "Run",
+    "Application.Demo7.executor": "Run",
     "Application.Entry_Set_Method.executor": "Run",
     "Application.FirstProgram.executor": "Run",
     "Application.Function_Interface.executor": "Run",
@@ -53,6 +57,7 @@
     "Application.List_To_Arrays_Method.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Of_Method.executor": "Run",
+    "Application.Practice1.executor": "Run",
     "Application.Predicate_Chaining.executor": "Run",
     "Application.Predicate_Interface.executor": "Run",
     "Application.Program1.executor": "Run",
@@ -68,6 +73,54 @@
     "onboarding.tips.debug.path": "/Users/apple/IdeaProjects/Java-core-concepts/src/Main.java"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.practice2">
+    <configuration name="Demo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.Demo7" />
+      <module name="Java-core-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Practice1" />
+      <module name="Java-core-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.practice2" />
+      <module name="Java-core-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.practice2" />
+        <item itemvalue="Application.Demo7" />
+        <item itemvalue="Application.Practice1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
