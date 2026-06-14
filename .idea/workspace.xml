@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c6b278-39e9-4083-9f7b-2e594e1f7fa5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Practice/Practice4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice/Practice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Practice3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     "Application.Of_Method.executor": "Run",
     "Application.Practice1.executor": "Run",
     "Application.Practice3.executor": "Run",
+    "Application.Practice4.executor": "Run",
     "Application.Predicate_Chaining.executor": "Run",
     "Application.Predicate_Interface.executor": "Run",
     "Application.Program1.executor": "Run",
@@ -73,7 +74,7 @@
     "onboarding.tips.debug.path": "/Users/apple/IdeaProjects/Java-core-concepts/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Practice3">
+  <component name="RunManager" selected="Application.Practice4">
     <configuration name="Demo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Generics.Demo7" />
       <module name="Java-core-concepts" />
@@ -113,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Practice4" />
+      <module name="Java-core-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="practice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.practice2" />
       <module name="Java-core-concepts" />
@@ -128,6 +142,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice4" />
         <item itemvalue="Application.Practice3" />
         <item itemvalue="Application.practice2" />
         <item itemvalue="Application.Demo7" />
