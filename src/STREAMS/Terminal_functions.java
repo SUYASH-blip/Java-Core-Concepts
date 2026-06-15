@@ -3,6 +3,7 @@ package STREAMS;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.OptionalInt;
 import java.util.stream.Collectors;
 
 public class Terminal_functions {
@@ -76,6 +77,27 @@ public class Terminal_functions {
         System.out.println(bool);
 
         //Similarly allMatch() and noneMatch()
+
+        //sum() works with primitive stream
+
+      int sum3 =  list.stream()
+                .filter(x -> x >10)
+                .map(x -> x * 9)
+                .mapToInt(x -> x)
+                .sum();
+
+        System.out.println(sum3);
+
+        //max() and min() returns optional
+
+        OptionalInt o2 = list.stream()
+                .filter(x -> x >10)
+                .map(x -> x * 9)
+                .mapToInt(x -> x)
+                .max();
+
+        System.out.println(o2);
+
 
 
 
