@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c6b278-39e9-4083-9f7b-2e594e1f7fa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Practice/Practice5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/STREAMS/Intermediate_Functions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "Application.GenericMethod.executor": "Run",
     "Application.HashCodeAndEqualsMethod.executor": "Run",
     "Application.HashTableDemo.executor": "Run",
+    "Application.Intermediate_Functions.executor": "Run",
     "Application.Key_Set_Method.executor": "Run",
     "Application.LRUCache.executor": "Run",
     "Application.List_To_Arrays_Method.executor": "Run",
@@ -76,9 +77,22 @@
     "onboarding.tips.debug.path": "/Users/apple/IdeaProjects/Java-core-concepts/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Practice5">
+  <component name="RunManager" selected="Application.Intermediate_Functions">
     <configuration name="Basic_Stream_Generation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="STREAMS.Basic_Stream_Generation" />
+      <module name="Java-core-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="STREAMS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Intermediate_Functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STREAMS.Intermediate_Functions" />
       <module name="Java-core-concepts" />
       <extension name="coverage">
         <pattern>
@@ -129,26 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.practice2" />
-      <module name="Java-core-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Intermediate_Functions" />
         <item itemvalue="Application.Practice5" />
         <item itemvalue="Application.Basic_Stream_Generation" />
         <item itemvalue="Application.Practice4" />
         <item itemvalue="Application.Practice3" />
-        <item itemvalue="Application.practice2" />
       </list>
     </recent_temporary>
   </component>
