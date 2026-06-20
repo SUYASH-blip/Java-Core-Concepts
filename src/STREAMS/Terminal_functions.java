@@ -7,103 +7,159 @@ import java.util.OptionalInt;
 import java.util.stream.Collectors;
 
 public class Terminal_functions {
-    public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>(List.of(1,2,3,4,5,6,7,8,9,10));
 
-        //1. Collecting Results:-
-             //a.  toList:- return immutable list
-             //b.  collect:- one of the most powerful methods in whole streams topic
-             //    because there is a separate interface "Collector" which provides multiple methods to collect a
-             //    stream in different ways.
+    public static void main(String[] args) {
+
+        List<Integer> list = new ArrayList<>(
+                List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+        );
+
+        // =========================================================
+        // 1. Collecting Results
+        // =========================================================
+
+        // toList()
+        // Returns an immutable list (cannot be modified).
 
         List<Integer> list2 = list.stream()
                 .map(x -> x + 1)
                 .toList();
 
+        // collect()
+        // One of the most powerful terminal operations.
+        // Uses Collector implementations to collect stream data
+        // into different data structures.
 
         List<Integer> list3 = list.stream()
                 .map(x -> x + 1)
-                .collect(Collectors.toList());  //mutable list, Collectors is a implementation class of the collector
-                                               // interface
+                .collect(Collectors.toList());
+
+        // Collectors.toList() generally returns a mutable list.
 
         list3.add(4);
         System.out.println(list3);
 
 
+        // =========================================================
+        // 2. reduce()
+        // =========================================================
+        // Used to combine all stream elements into a single value.
+        //
+        // Example:
+        // Sum, Product, Maximum, Minimum, String Concatenation, etc.
 
-        //2. Reducing Streams:- combines streams all elements into a single value
-        //There are two overloaded methods of the reduce()
-
-        //1.Method - 1 :-
+        // Method 1: Without Identity Value
+        // Returns Optional because stream may be empty.
 
         Optional<Integer> sum = list.stream()
-                .reduce((a,b) -> a + b);
+                .reduce((a, b) -> a + b);
+
         System.out.println(sum.get());
 
-        //Method-2 :-
+        // Method 2: With Identity Value
+        // Returns direct result (not Optional).
 
         int sum2 = list.stream()
-                .reduce(0,(a,b) -> a + b);
+                .reduce(0, (a, b) -> a + b);
+
         System.out.println(sum2);
 
 
-        //count() --> return number of elements which passed all the filters
+        // =========================================================
+        // 3. count()
+        // =========================================================
+        // Returns the number of elements remaining after all
+        // intermediate operations are applied.
 
-        long ans = list.stream()
-                .filter(x -> x >10)
+        long count = list.stream()
+                .filter(x -> x > 10)
                 .map(x -> x * 9)
-                .count();             //returns a long value
-        System.out.println(ans);
+                .count();
 
-       //FindFirst():- Returns first element to pass all the filters , it performs short circuiting becuase after
-        // returning a value it closes the stream
+        System.out.println(count);
 
-       Optional<Integer> o = list.stream()
-                .filter(x -> x >10)
+
+        // =========================================================
+        // 4. findFirst()
+        // =========================================================
+        // Returns the first element matching the pipeline.
+        // Performs short-circuiting (stream stops after finding result).
+
+        Optional<Integer> first = list.stream()
+                .filter(x -> x > 10)
                 .map(x -> x * 9)
                 .findFirst();
 
-        System.out.println(o.get());
+        // Use isPresent() before get() in production code.
 
-        //Similarly FindAny mostly used for parallel streams
+        if (first.isPresent()) {
+            System.out.println(first.get());
+        }
 
-        //AnyMatch():- returns a boolean value
 
-        boolean bool = list.stream()
-                .filter(x -> x >10)
+        // =========================================================
+        // 5. findAny()
+        // =========================================================
+        // Similar to findFirst().
+        // Mainly useful in parallel streams for better performance.
+
+        // Optional<Integer> any = list.stream().findAny();
+
+
+        // =========================================================
+        // 6. Matching Operations
+        // =========================================================
+
+        // anyMatch()
+        // Returns true if at least one element matches condition.
+
+        boolean anyMatch = list.stream()
+                .filter(x -> x > 10)
                 .map(x -> x * 9)
-                .anyMatch(x -> x -2 == 0);
+                .anyMatch(x -> x % 2 == 0);
 
-        System.out.println(bool);
+        System.out.println(anyMatch);
 
-        //Similarly allMatch() and noneMatch()
+        // allMatch()
+        // Returns true if all elements satisfy condition.
 
-        //sum() works with primitive stream
+        // noneMatch()
+        // Returns true if no element satisfies condition.
 
-      int sum3 =  list.stream()
-                .filter(x -> x >10)
+
+        // =========================================================
+        // 7. sum()
+        // =========================================================
+        // Available only on primitive streams
+        // (IntStream, LongStream, DoubleStream).
+
+        int sum3 = list.stream()
+                .filter(x -> x > 10)
                 .map(x -> x * 9)
-                .mapToInt(x -> x)
+                .mapToInt(Integer::intValue)
                 .sum();
 
         System.out.println(sum3);
 
-        //max() and min() returns optional
 
-        OptionalInt o2 = list.stream()
-                .filter(x -> x >10)
+        // =========================================================
+        // 8. max() and min()
+        // =========================================================
+        // Available on primitive streams.
+        // Returns OptionalInt because stream may be empty.
+
+        OptionalInt max = list.stream()
+                .filter(x -> x > 10)
                 .map(x -> x * 9)
-                .mapToInt(x -> x)
+                .mapToInt(Integer::intValue)
                 .max();
 
-        System.out.println(o2);
+        System.out.println(max);
 
+        // Similarly:
 
-
-
-
-
-
-
+        // OptionalInt min = list.stream()
+        //         .mapToInt(Integer::intValue)
+        //         .min();
     }
 }
