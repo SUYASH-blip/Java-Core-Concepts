@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c6b278-39e9-4083-9f7b-2e594e1f7fa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Practice/Practice7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice/StreamPractice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/STREAMS/CollectInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STREAMS/Terminal_functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STREAMS/Terminal_functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Optional/BasicProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,13 +89,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CollectInterface">
-    <configuration name="CollectInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="STREAMS.CollectInterface" />
+  <component name="RunManager" selected="Application.BasicProgram">
+    <configuration name="BasicProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Optional.BasicProgram" />
       <module name="Java-core-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="STREAMS.*" />
+          <option name="PATTERN" value="Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Practice1" />
+    <configuration name="CollectInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STREAMS.CollectInterface" />
       <module name="Java-core-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.*" />
+          <option name="PATTERN" value="STREAMS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicProgram" />
         <item itemvalue="Application.CollectInterface" />
         <item itemvalue="Application.StreamPractice1" />
         <item itemvalue="Application.Practice7 (1)" />
         <item itemvalue="Application.Practice7" />
-        <item itemvalue="Application.Practice1" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +183,7 @@
       <updated>1778265761297</updated>
       <workItem from="1781720470429" duration="26000" />
       <workItem from="1781966827076" duration="3692000" />
-      <workItem from="1782023513420" duration="3972000" />
+      <workItem from="1782023513420" duration="4920000" />
     </task>
     <servers />
   </component>
