@@ -25,19 +25,7 @@ public class Terminal_functions {
                 .map(x -> x + 1)
                 .toList();
 
-        // collect()
-        // One of the most powerful terminal operations.
-        // Uses Collector implementations to collect stream data
-        // into different data structures.
 
-        List<Integer> list3 = list.stream()
-                .map(x -> x + 1)
-                .collect(Collectors.toList());
-
-        // Collectors.toList() generally returns a mutable list.
-
-        list3.add(4);
-        System.out.println(list3);
 
 
         // =========================================================
