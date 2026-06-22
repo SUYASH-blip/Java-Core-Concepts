@@ -9,7 +9,7 @@ public class Practice1{
         List<Integer> l = new ArrayList<>(List.of(1,2,3,4,5));
         Type<String> t1 = new Type<String>();
         t1.getValue("Suyash");
-      t1.printList(l);
+        t1.printList(l);
 
 
     }
