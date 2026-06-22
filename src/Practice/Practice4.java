@@ -21,6 +21,7 @@ class Students{
     int marks;
     String name;
     int roll;
+    String address;
 
     public Students(int marks, String name, int roll) {
         this.marks = marks;
