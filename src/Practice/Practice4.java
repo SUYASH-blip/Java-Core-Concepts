@@ -13,6 +13,7 @@ public class Practice4 {
 
         for(Students st:s){
             System.out.println(st.marks+" , "+st.name+" , "+st.roll);
+            System.out.println("Hello");  //proxy
         }
     }
 }
