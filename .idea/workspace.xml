@@ -87,7 +87,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BasicProgram">
+  <component name="RunManager" selected="Application.Add_All_Method">
+    <configuration name="Add_All_Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections_Framework.List.ArrayLists.Add_All_Method" />
+      <module name="Java-core-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections_Framework.List.ArrayLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BasicProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Optional.BasicProgram" />
       <module name="Java-core-concepts" />
@@ -127,19 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Practice7" />
-      <module name="Java-core-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StreamPractice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.StreamPractice1" />
       <module name="Java-core-concepts" />
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Add_All_Method" />
         <item itemvalue="Application.BasicProgram" />
         <item itemvalue="Application.CollectInterface" />
         <item itemvalue="Application.StreamPractice1" />
         <item itemvalue="Application.Practice7 (1)" />
-        <item itemvalue="Application.Practice7" />
       </list>
     </recent_temporary>
   </component>

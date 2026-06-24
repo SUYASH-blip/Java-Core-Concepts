@@ -12,6 +12,7 @@ public class Add_All_Method {
         l2.add(6);
         l1.addAll(l2);
         System.out.println(l1);
+        // proxy
         System.out.println(l2);
 
 
