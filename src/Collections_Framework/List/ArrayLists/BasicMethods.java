@@ -11,7 +11,7 @@ public class BasicMethods {
         list.add("Vinayak");
         list.add(5,"Swati");
         list.get(0);
-
+        System.out.println();
         boolean y = list.contains("Swati");
         System.out.println(y);
         list.remove(5);
