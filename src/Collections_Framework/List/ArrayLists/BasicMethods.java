@@ -10,7 +10,7 @@ public class BasicMethods {
         list.add("Tanish");
         list.add("Vinayak");
         list.add(5,"Swati");
-        list.get(0);
+       // list.get(0);
 
         boolean y = list.contains("Swati");
         System.out.println(y);
