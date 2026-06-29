@@ -9,7 +9,7 @@ public class BasicMethods {
         list.add("Vinay");
         list.add("Tanish");
         list.add("Vinayak");
-      //  list.add(5,"Swati");
+        list.add(5,"Swati");
         list.get(0);
         System.out.println();
         boolean y = list.contains("Swati");
