@@ -27,6 +27,7 @@ public class BinarySearch {
                 System.out.println("Element found at index: " + position);
             } else {
                System.out.println("Element not found");
+               //Proxy
             }
         }
     }
