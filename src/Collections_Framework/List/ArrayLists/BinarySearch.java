@@ -26,7 +26,7 @@ public class BinarySearch {
             if (position != -1) {
                 System.out.println("Element found at index: " + position);
             } else {
-                //System.out.println("Element not found");
+                System.out.println("Element not found");
             }
         }
     }
