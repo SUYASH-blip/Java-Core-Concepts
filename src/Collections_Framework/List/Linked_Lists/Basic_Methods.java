@@ -14,7 +14,7 @@ public class Basic_Methods {
         Object s = list.getFirst();
         System.out.println(s);
         Object o = list.getLast();
-        System.out.println(o);
+        //System.out.println(o);
 
         System.out.println(list);
 
