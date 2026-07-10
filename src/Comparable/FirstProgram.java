@@ -30,7 +30,7 @@ public class FirstProgram {
         students.add(new Student(65,"Tushar",50));
         students.add(new Student(72,"Tanish",38));
         students.add(new Student(65,"Vinay",73));
-        students.add(new Student(34,"Vinayak",4));
+       // students.add(new Student(34,"Vinayak",4));
 
         Collections.sort(students);
 
