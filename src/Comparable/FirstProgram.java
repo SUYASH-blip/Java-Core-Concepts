@@ -7,13 +7,6 @@ import java.util.Collections;
 import java.util.List;
 
 class Student implements Comparable<Student>{
-    @Override
-            public int compareTo(Student other){
-
-            return other.marks - this.marks;
-        }
-
-
     int marks;
     String name;
     int roll_no;
@@ -23,6 +16,12 @@ class Student implements Comparable<Student>{
         this.name = name;
         this.roll_no = roll_no;
     }
+
+    @Override
+    public int compareTo(Student other){
+        return other.marks - this.marks;
+        }
+
 }
 public class FirstProgram {
     public static void main(String[] args) {
@@ -36,7 +35,7 @@ public class FirstProgram {
         Collections.sort(students);
 
         for(Student s : students){
-            System.out.println(s.marks+" , "+s.name+" , "+s.roll_no);
+        //    System.out.println(s.marks+" , "+s.name+" , "+s.roll_no);
         }
     }
 }
