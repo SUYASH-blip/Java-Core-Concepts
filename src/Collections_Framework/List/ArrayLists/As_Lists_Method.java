@@ -7,7 +7,7 @@ public class As_Lists_Method {
         List1.remove("Suyash");//will throw Runtime error
          List1.add("Jay");//Same error
          List1.set(0,"Radhe");
-         System.out.println(List1);
+       //  System.out.println(List1);
 
     }
 }
