@@ -7,7 +7,7 @@ public class BasicMethods {
         list.add("Suyash");
       //  list.add("Tushar");
         list.add("Vinay");
-        list.add("Tanish");
+      //  list.add("Tanish");
         list.add("Vinayak");
         list.add(5,"Swati");
         list.get(0);
