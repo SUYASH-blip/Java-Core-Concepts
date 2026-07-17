@@ -5,7 +5,7 @@ public class BasicMethods {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         list.add("Suyash");
-        list.add("Tushar");
+      //  list.add("Tushar");
         list.add("Vinay");
         list.add("Tanish");
         list.add("Vinayak");
