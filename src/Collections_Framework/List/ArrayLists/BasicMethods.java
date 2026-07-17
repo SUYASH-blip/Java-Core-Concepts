@@ -14,7 +14,7 @@ public class BasicMethods {
         System.out.println();
         boolean y = list.contains("Swati");
         System.out.println(y);
-        list.remove(5);
+     //   list.remove(5);
         boolean z = list.contains("Swati");
         System.out.println(z);
 
