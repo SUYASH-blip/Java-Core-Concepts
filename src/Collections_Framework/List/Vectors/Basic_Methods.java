@@ -28,7 +28,7 @@ public class Basic_Methods {
       boolean result =  vector1.equals(vector2);
         System.out.println(result);
         System.out.println(vector1);
-        System.out.println(vector2);
+       // System.out.println(vector2);
        // System.out.println(vector3);
 
 
