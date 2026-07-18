@@ -29,7 +29,7 @@ public class Basic_Methods {
         System.out.println(result);
         System.out.println(vector1);
         System.out.println(vector2);
-        System.out.println(vector3);
+       // System.out.println(vector3);
 
 
 /*vector 3 ke constructor me hamne pehle vector2 ko likha jab usme kuch bhi
